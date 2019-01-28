@@ -3,4 +3,6 @@ sudo: false
 python:
 - 2.7
 - 3.4
-script: py.test -v
+script:
+- echo $env_test_value
+- py.test -v
